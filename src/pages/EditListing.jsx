@@ -120,7 +120,7 @@ function EditListing() {
 
     if (geolocationEnabled) {
       const response = await fetch(
-        `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=AIzaSyDL-lnVUkc7PYJmDWak9iV91Fuh-7ge6xs`
+        `https://maps.googleapis.com/maps/api/geocode/json?address=${address}`
       );
 
       const data = await response.json();
